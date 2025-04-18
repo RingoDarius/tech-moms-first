@@ -149,3 +149,7 @@ button:hover{
     padding: 1rem;
     justify-content: space-evenly;
 }
+
+#favoriteThingsPicture img{
+    max-width: 200px;
+}
