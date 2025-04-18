@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kim's First Website</title>
-
-</head>
-<body>
+    <script src = "script.js" defer></script>
+  </head>
+  <body>
     <nav>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="family.html">Family</a></li>
-            <li><a href="career.html">Career</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="family.html">Family</a></li>
+        <li><a href="career.html">Career</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
 
-<header>
-        <h1>All About Me</h1>
-</header>
-<main>
-    <p>My name is Kim Murphy.  I teach Tech Moms here online.  I have four kids, I also teach at Weber State University.My name is Kim Murphy.  I teach Tech Moms here online.  I have four kids, I also teach at Weber State University.My name is Kim Murphy.  I teach Tech Moms here online.  I have four kids, I also teach at Weber State University.My name is Kim Murphy.  I teach Tech Moms here online.  I have four kids, I also teach at Weber State University.My name is Kim Murphy.  I teach Tech Moms here online.  I have four kids, I also teach at Weber State University.</p>
+    <header>
+      <h1>All About Me</h1>
+    </header>
+    <main>
+      <p>
+        My name is Kim Murphy. I teach Tech Moms here online. I have four kids,
+        I also teach at Weber State University.My name is Kim Murphy. I teach
+        Tech Moms here online. I have four kids, I also teach at Weber State
+        University.My name is Kim Murphy. I teach Tech Moms here online. I have
+        four kids, I also teach at Weber State University.My name is Kim Murphy.
+        I teach Tech Moms here online. I have four kids, I also teach at Weber
+        State University.My name is Kim Murphy. I teach Tech Moms here online. I
+        have four kids, I also teach at Weber State University.
+      </p>
 
-    <hr>
+      <hr />
 
-    <!-- We are going to list our favorite things  To write a comment: CTRL + / -->
+      <!-- We are going to list our favorite things  To write a comment: CTRL + / -->
 
-    <h2><span class = "emphasis">F</span>avorite Things</h2>
-    <p>Here is a <em>list</em> of my <strong>favorite things.</strong></p>
-    <ol>
-        <li>Sound of Music</li>
-        <li>Music</li>
-        <li>Rain drops on roses</li>
-        <li>Whiskers on kittens</li>
-        <li>Bright copper kettles</li>
-        <li>Warm Woolen Mittens</li>
-    </ol>
-    <img src="images/fluffykitten.jpg" alt="Kitten wrapped in a fuzzy blanket">
-</main>
-<footer><p>&copy; 2025 All Rights Reserved</p></footer>
-</body>
+      <div id = "favoriteThingsParent">
+        <section>
+      <h2><span class="emphasis">F</span>avorite Things</h2>
+      <p>Here is a <em>list</em> of my <strong>favorite things.</strong></p>
+          <ol>
+            <li id = "som">Sound of Music</li>
+            <li id = "music">Music</li>
+            <li id = "rain">Rain drops on roses</li>
+            <li id = "whiskers">Whiskers on kittens</li>
+            <li id = "bright">Bright copper kettles</li>
+            <li>Warm Woolen Mittens</li>
+          </ol>
+        </section>
+        <section id = "favoriteThingsPicture"> <img src="images/soundofmusic.jpg" alt="Sound Of Music" id = "displayImage"> </section>
+      </div>
+    </main>
+    <footer><p>&copy; 2025 All Rights Reserved</p></footer>
+  </body>
 </html>

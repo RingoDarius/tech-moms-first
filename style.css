@@ -142,3 +142,10 @@ button{
 button:hover{
     background-color: #b9cad1;
 }
+
+
+#favoriteThingsParent{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
