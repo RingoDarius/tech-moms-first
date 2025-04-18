@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="family.html">Family</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header><h1>Contact</h1></header>
+    <main>
+
+        <form>
+            <label for = "name">Name:</label>
+            <input type="text" id = "name" name = "name" required>
+
+            <label for = "email">Email:</label>
+            <input type="email" id = "email" name = "email">
+
+            <label for = "phone">Phone Number</label>
+            <input type="tel" id = "phone" name = "phone">
+
+            <label for="prefContact">Preferred Contact Method</label>
+            <div class = "preferredContact">
+                <label for = "prefContact"><input type = "radio" name = "prefContact" value = "email" checked> Email</label>
+                <label for = "prefContact"><input type = "radio" name = "prefContact" value = "phone"> phone</label>
+            </div>
+        
+               <label for="comments">Comments:</label>
+               <textarea name="comments" id="comments" rows = "4" cols = "40"></textarea> 
+       
+            <button>Submit</button>
+        </form>
+
+
+    </main>
+    <footer><p>&copy; 2025 All Rights Reserved</p></footer>
+</body>
+</html>

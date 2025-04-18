@@ -1,0 +1,144 @@
+/* Browser Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*General page styles*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #b1d4e0;
+    color: #0c2d48;
+}
+/* 
+    Use CTRL+ / to insert a comment on anything in VS Code
+    Use a comma to style multile selectors
+    Measurements:
+        rem/em/px
+
+        in inches
+        cm cenimeters
+        pt font types
+
+*/
+header, footer{
+    background-color: #0c2d48;
+    color:white;
+    padding: 1em;
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+
+/* The dot means that this is a coder defined class.  We use it in the html with class = "whatever the name is" */
+.emphasis{
+    color: yellow;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+p, ul{
+    margin:.5em;
+}
+/* Padding or Margin: don't get into TRBL or HV */
+li{
+    margin:.1em .5em;
+    padding:.1em .5em;    
+}
+
+main{
+    padding: 1rem;
+    max-width: 80em;
+    margin: auto auto 5rem auto ;
+
+}
+
+/* Nav Styles 
+Use a space when you need to select based upon the container */
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: .5em;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/* Pseudo class is a class that styles a portion of a element */
+nav a:hover{
+    text-decoration: underline;
+    color:#2e8bc0;
+}
+
+/* Table Styles  */
+
+table{
+    width: 70%;
+    margin: 1em;
+    border-collapse: collapse;;
+}
+
+td, th{
+    border: 2px solid #0c2d48;
+    padding: .5rem;
+}
+th{
+    background-color: #2e8bc0;
+    color: white;
+}
+caption{
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+tr:hover{
+    background-color: #95c1d5 !important;
+}
+tr:nth-child(even){
+    background-color: #d9eaf1;
+}
+
+
+
+/*Form Styles*/
+form{
+    background-color: white;
+    padding: 1em;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px black;
+    font-size: 1.1rem;
+    max-width: 400px;
+}
+
+label, button{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #d9eaf1;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #b9cad1;
+}
